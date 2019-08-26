@@ -1,7 +1,7 @@
 node ('master'){
   //SCM Checkout
   stage('SCM Checkout'){
-    git url: 'https://github.com/prasadkadam36/Andriod.git'
+    git url: 'https://github.com/prasadkadam36/build-android-jenkins.git'
   }
    stage('Build Package'){
      
